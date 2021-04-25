@@ -26,7 +26,6 @@
 .img {
     width: 24px;
     height: 24px;
-    
 }
 
 .menu {
@@ -74,9 +73,15 @@
     display: none;
 }
 
-.menu-desktop:hover {
+.menu-desktop li a{
+    text-decoration: none;
+    color: black;
+}
+
+.menu-desktop li a:hover{
+    text-decoration: none;
+    color:#00F3BB;
     text-decoration: line-through;
-    color:#00F3BB
 }
 
 .menu-desktop:active {
